@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "help": "node-gyp help",
+    "install": "node-gyp install",
+    "list": "node-gyp list",
+    "build": "node-gyp build",
+    "configure": "node-gyp configure",
+    "clean": "node-gyp clean",
+    "rebuild": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-yang-github/nodejs-napi-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yi-yang-github/nodejs-napi-demo/issues"
+  },
+  "homepage": "https://github.com/yi-yang-github/nodejs-napi-demo#readme",
+  "devDependencies": {
+    "node-gyp": "^9.3.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
